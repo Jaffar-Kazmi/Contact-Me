@@ -49,7 +49,7 @@ export default function AdminPage() {
 
   if (!authenticated) {
     return (
-      <div style={{ padding: "20px" }}>
+      <div className="login-box"style={{ padding: "20px" }}>
         <h2>Admin Login</h2>
         <input
           type="password"

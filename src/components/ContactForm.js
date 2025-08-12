@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 
 export default function ContactForm() {
@@ -28,6 +29,7 @@ export default function ContactForm() {
   };
 
   return (
+    <div className="container">
     <form onSubmit={handleSubmit} style={{ maxWidth: "400px", margin: "0 auto" }}>
       <h2>Contact Me</h2>
 
@@ -87,5 +89,6 @@ export default function ContactForm() {
         }
       `}</style>
     </form>
+    </div>
   );
 }
