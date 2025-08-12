@@ -15,7 +15,7 @@ This **Contact Me** web application was developed as a semester project for the 
 - [API Routes](#api-routes)  
 - [Setup and Running](#setup-and-running)  
 - [Environment Variables](#environment-variables)  
-- [Future Improvements](#future-improvements)  
+- [Future Enhancements](#future-enhancements)  
 - [License](#license)
 
 ---
